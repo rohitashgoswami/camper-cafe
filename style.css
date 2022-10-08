@@ -1,0 +1,82 @@
+
+body{
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans, serif;
+    padding: 20px;
+}
+h1{
+    font-size: 40px;
+}
+
+h1, h2, p{
+    text-align: center;
+
+}
+
+h2{
+    font-size: 30px;
+}
+h1, h2{
+    font-family: Impact, serif;
+}
+.found {
+    font-style: italic;
+}
+.image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.menu {
+    background-color: burlywood;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.item {
+    padding-right: 12px;
+}
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    width: 49%;
+}
+.flavor{
+    text-align: left;
+    width: 75%;
+}
+.dessert{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
+hr{
+    background-color: brown;
+    height: 4px;
+
+}
+.hr-bottom{
+    height: 4px;
+    background-color: ;
+}
+#footer p a {
+    color: #000000;
+}
+#footer p a:hover {
+    color: #ff0000;
+}
+
+/* 
+ CSS selectors
+ 1. by tag name 
+ 2. by . = to select an element with class attribute
+ 3. by # = to select an element with id attribute
+*/
